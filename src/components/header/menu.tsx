@@ -6,7 +6,7 @@ export const Menu:React.FC<{active:boolean}> = ({active}) => {
 
     return(
         <nav className={`
-        ${active ? "translate-x-full": "-translate-x-0"}
+        ${!active ? "translate-x-full sm:translate-x-0": "-translate-x-0 sm:translate-x-0"}
         flex absolute flex-col items-center gap-[40px] 
         h-[420px] bg-white right-0 top-[70px] p-2
         lg:flex-row lg:static lg:h-full lg:p-0
