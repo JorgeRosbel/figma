@@ -1,0 +1,13 @@
+
+
+@font-face {
+  font-family: "Space Grotesk", sans-serif;
+  src: url("./assets/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*{
+  font-family: "Space Grotesk",Arial, sans-serif;
+}
