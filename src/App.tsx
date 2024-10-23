@@ -4,6 +4,7 @@ import { Header } from "@components/header/header";
 import { Hero } from "@components/hero/hero";
 import { Company } from "@components/hero/company";
 import { Services } from "@components/services/services";
+import { Info } from "@components/extras/info";
 
 
 
@@ -19,6 +20,7 @@ const App:React.FC = () => {
               <Hero />
               <Company />
               <Services />
+              <Info />
             </>
           } />
         </Routes>
