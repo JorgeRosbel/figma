@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 
 
 export const Menu:React.FC<{active:boolean}> = ({active}) => {
@@ -12,11 +10,11 @@ export const Menu:React.FC<{active:boolean}> = ({active}) => {
         lg:flex-row lg:static lg:h-full lg:p-0
         transition-all duration-300`}>
 
-            <Link to="/figma" className="text-[20px]">About us</Link>
-            <Link to="/figma" className="text-[20px]" >Services</Link>
-            <Link to="/figma" className="text-[20px]">Use Cases</Link>
-            <Link to="/figma" className="text-[20px]">Pricing</Link>
-            <Link to="/figma" className="text-[20px]">Blog</Link>
+            <a href="#" className="text-[20px]">About us</a>
+            <a href="#services" className="text-[20px]">Services</a>
+            <a href="#case-studies" className="text-[20px]">Use Cases</a>
+            <a className="text-[20px]">Pricing</a>
+            <a className="text-[20px]">Blog</a>
             <button className="text-[20px] w-[231px] h-full flex items-center justify-center rounded-xl border border-black">
                 Request a quote
             </button>

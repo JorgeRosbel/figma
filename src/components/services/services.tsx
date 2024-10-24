@@ -10,7 +10,7 @@ import image_6 from "@assets/card-6.svg";
 export const Services:React.FC = () => {
 
     return(
-        <section className="w-full max-w-res px-5 sm:px-2 mt-[70px] mb-[70px] flex flex-col gap-10">
+        <section id="services" className="w-full max-w-res px-5 sm:px-2 mt-[70px] mb-[70px] flex flex-col gap-10">
             <Title 
                 title="Services"
                 text=" At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:" />
