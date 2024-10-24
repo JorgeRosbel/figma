@@ -5,8 +5,7 @@ import { Hero } from "@components/hero/hero";
 import { Company } from "@components/hero/company";
 import { Services } from "@components/services/services";
 import { Info } from "@components/extras/info";
-
-
+import { SliderContent } from "@components/slider/sliderContent";
 
 const App:React.FC = () => {
 
@@ -21,6 +20,7 @@ const App:React.FC = () => {
               <Company />
               <Services />
               <Info />
+              <SliderContent />
             </>
           } />
         </Routes>

@@ -11,3 +11,12 @@
 *{
   font-family: "Space Grotesk",Arial, sans-serif;
 }
+
+
+.silder{
+  scroll-snap-type: x mandatory;
+}
+
+.slider-center{
+  scroll-snap-align: center;
+}
